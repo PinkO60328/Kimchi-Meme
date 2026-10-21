@@ -1,0 +1,16 @@
+*{box-sizing:border-box;margin:0;padding:0}body{background:#0a0806;color:#f3e6c4;font-family:Georgia,serif}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:12px 24px;background:rgba(10,8,6,.85);backdrop-filter:blur(8px);border-bottom:1px solid #5a4416}
+.brand{display:flex;gap:10px;align-items:center;font-weight:700;color:#e6c15a;font-size:1.3rem}.brand img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #e6c15a}
+.btn{padding:10px 22px;border:1px solid #e6c15a;border-radius:30px;color:#e6c15a;font-weight:700}.btn.gold{background:linear-gradient(135deg,#f7e08b,#c9962a);color:#140e04;border:0;box-shadow:0 0 25px rgba(230,193,90,.5)}
+.banner{aspect-ratio:16/9;max-height:70vh;width:100%;overflow:hidden}.banner img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-txt{text-align:center;padding:0 20px 50px;margin-top:-80px;position:relative}
+.pfp{width:160px;aspect-ratio:1;margin:0 auto;border-radius:50%;overflow:hidden;border:4px solid #e6c15a;box-shadow:0 0 40px rgba(230,193,90,.6)}.pfp img{width:100%;height:100%;object-fit:cover}
+h1{font-size:clamp(2.5rem,8vw,5rem);letter-spacing:.1em;margin:18px 0 8px;background:linear-gradient(90deg,#f7e08b,#fff,#c9962a);-webkit-background-clip:text;color:transparent}
+.tag{opacity:.85;margin-bottom:20px}.ca{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:center;padding:10px 16px;border:1px solid #5a4416;border-radius:12px;margin-bottom:20px}
+.ca button{background:#e6c15a;border:0;border-radius:8px;padding:6px 12px;cursor:pointer;font-weight:700}
+section{max-width:1200px;margin:0 auto;padding:50px 20px}h2{text-align:center;color:#e6c15a;font-size:2rem;margin-bottom:28px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.tile{aspect-ratio:1;overflow:hidden;border-radius:14px;border:1px solid #5a4416}.tile img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.tile:hover img{transform:scale(1.06)}
+.about p{max-width:700px;margin:0 auto;text-align:center;line-height:1.7}
+footer{text-align:center;padding:30px;font-size:.8rem;opacity:.6;border-top:1px solid #3a2c0e}
