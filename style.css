@@ -14,3 +14,4 @@ section{max-width:1200px;margin:0 auto;padding:50px 20px}h2{text-align:center;co
 .tile{aspect-ratio:1;overflow:hidden;border-radius:14px;border:1px solid #5a4416}.tile img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.tile:hover img{transform:scale(1.06)}
 .about p{max-width:700px;margin:0 auto;text-align:center;line-height:1.7}
 footer{text-align:center;padding:30px;font-size:.8rem;opacity:.6;border-top:1px solid #3a2c0e}
+.navr{display:flex;gap:8px}.chain{margin-bottom:20px;color:#e6c15a}.row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
